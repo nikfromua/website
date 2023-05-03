@@ -9,4 +9,4 @@ HTML files with 'partial.html' suffix will be ignored, so validator is compatibl
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-![Logo(https://i.kym-cdn.com/entries/icons/original/000/037/848/cover2.jpg)
+![Logo](https://i.kym-cdn.com/entries/icons/original/000/037/848/cover2.jpg)
