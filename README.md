@@ -9,4 +9,4 @@ HTML files with 'partial.html' suffix will be ignored, so validator is compatibl
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-![Logo](https://en.wikipedia.org/wiki/HTML#/media/File:HTML5_logo_and_wordmark.svg)
+![Logo](https://en.wikipedia.org/wiki/HTML#/media/File:HTML5_logo_and_wordmark.png)
