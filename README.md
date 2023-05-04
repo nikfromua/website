@@ -1,4 +1,4 @@
-<h1>HTML Template Repository with HTML ProoferU+1F44D</h1>
+<h1>HTML Template Repository with HTML Proofer&#x1F47B;</h1>
 
 <h2>Validation is performed with dynamic pre-rendering of html files so it will allow to construct them with JavaScript on the fly.</h2>
 
