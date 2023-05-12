@@ -2,7 +2,7 @@
 
 <h2>Validation is performed with dynamic pre-rendering of html files so it will allow to construct them with JavaScript on the fly.</h2>
 
-<img width="300" src="photos/pngegg.png" alt="html5" class="center">
+<img width="300" src="img/pngegg.png" alt="html5" class="center">
 
 <h3>HTML files with 'partial.html' suffix will be ignored, so validator is compatible with dynamic construction of website with html includes like (HTML Data Include)[https://github.com/programmingmentor/html-data-include].</h3>
 
