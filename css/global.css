@@ -13,3 +13,8 @@ img {
     max-width: 1175px;
     margin: auto;
 }
+
+
+:root {
+    --header-background-color: #1c1d1e;
+}
