@@ -1,60 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>EV`s</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="photos/shorticon.png" type="image/x-icon">
+    <title>VR Sample</title>
+    <link rel="shortcut icon" href="img/shorticon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-    <header>
-        <h1 style="font-family:Cambria;">Thise website is about EV`s &#128268</h1>
-    </header>
-    <main style="font-family:Cambria;">
-        <p style="background-image:url(photos/carvnv.jpg);">
-             Electric cars, also known as electric vehicles (EVs), are becoming increasingly popular as a more environmentally friendly alternative to traditional gasoline-powered cars.<br>
 
-             Unlike conventional cars that run on gasoline, electric cars are powered by rechargeable batteries and electric motors.<br>
-             
-             One of the main advantages of electric cars is that they emit zero tailpipe emissions, which means they produce no harmful pollutants or greenhouse gases.<br>
-             
-             This makes them a much cleaner option for the environment and can help to reduce air pollution in cities.<br>
-             
-             In addition to their environmental benefits, electric cars can also be more efficient than gasoline-powered cars.<br>
-             
-             They can be charged at home or at public charging stations, and the cost of electricity is generally lower than gasoline.<br>
-             
-             This means that owning an electric car can be more cost-effective in the long run.<br>
-             
-             There are several different types of electric cars available on the market today, including all-electric, hybrid electric, and plug-in hybrid electric vehicles.<br>
-             
-             All-electric cars rely solely on electricity to power the vehicle, while hybrid electric cars combine an electric motor with a gasoline engine to improve efficiency.<br>
-             
-             Plug-in hybrid electric vehicles can be charged using electricity, gasoline, or both.<br>
-             
-             While electric cars are still more expensive than traditional cars, the cost is gradually coming down as technology advances and production volumes increase.<br>
-             
-             As more and more people become aware of the benefits of electric cars, it is likely that we will see a shift towards these cleaner, more efficient vehicles in the years to come.
-</p>
+<body>
+    <header data-include="partials/header.partial.html">
+    </header>
+    <main>
+        <div data-include="partials/about.partial.html"></div>
+        <div data-include="partials/pricing-plan.partial.html"></div>
+        <div data-include="partials/how-work.partial.html"></div>
+        <div data-include="partials/gallery.partial.html"></div>
+        <div data-include="partials/contact-us.partial.html"></div>
+        <div data-include="partials/steps.partial.html"></div>
+        <div data-include="partials/maps.partial.html"></div>
     </main>
-    <footer>
-        <div style="background-image:url(photos/car2.png)">
-            <h2 style="font-family:Cambria;">Top 5 popular electric vehicles in 2022</h2>
-            <dl style="font-family:Cambria;">
-              <dt>BMW iX</dt>
-              <dd>- $85,095</dd>
-              <dt>Ford Mustang Mach-E</dt>
-              <dd>- $42,995</dd>
-              <dt>Hyundai Ioniq 5</dt>
-              <dd>- $48,745</dd>
-              <dt>Hyundai Kona Electric</dt>
-              <dd>- $36,500</dd>
-              <dt>Mercedes EQS</dt>
-              <dd>- $209,009</dd>
-            </dl>
-          </div>          
+    <footer data-include="partials/footer.partial.html">
     </footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <!-- <script src="js/burger_menu.js"></script> -->
 </body>
+
 </html>
