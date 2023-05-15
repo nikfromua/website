@@ -1,11 +1,19 @@
-<h1>HTML Template Repository with HTML Proofer&#x1F47B;</h1>
+# HTML Template Repository with HTML Proofer
 
-<h2>Validation is performed with dynamic pre-rendering of html files so it will allow to construct them with JavaScript on the fly.</h2>
+This template repository includes preconfigured GitHub Action that will validate html files in a project with (HTMLProofer)[https://github.com/gjtorikian/html-proofer/].
 
-<img width="300" src="img/pngegg.png" alt="html5" class="center">
+Validation is performed with dynamic pre-rendering of html files so it will allow to construct them with JavaScript on the fly.
 
-<h3>HTML files with 'partial.html' suffix will be ignored, so validator is compatible with dynamic construction of website with html includes like (HTML Data Include)[https://github.com/programmingmentor/html-data-include].</h3>
+HTML files with 'partial.html' suffix will be ignored, so validator is compatible with dynamic construction of website with html includes like (HTML Data Include)[https://github.com/programmingmentor/html-data-include].
 
-![the-rock-the-rock-meme](https://user-images.githubusercontent.com/106475065/235998292-0e62a744-5c50-40a3-aec4-c2a016308f23.gif)
 
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Documentation</a>
+
+
+<h1>
+STRIKER DRONES&#129302;
+</h1>
+<a href="https://ovpw0.weblium.site"><img src=img/drones_readme.png></a>
+<h3>
+Striker Drones is your opportunity to rent drones in California at competitive prices.
+Click<a href="https://nikfromua.github.io/website/"> here </a>to view our project.
+</h3>
