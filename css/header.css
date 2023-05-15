@@ -1,3 +1,14 @@
 .header {
     background-color:var(--header-background-color);
 }
+
+.header__top {
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.header__drones {
+    justify-content: center;
+    color: var(--clear-white-color);
+    font-family: 'Fjalla One', sans-serif;
+}
