@@ -1,6 +1,6 @@
 .header {
     background-color:var(--header-background-color);
-    
+    background-size: cover;
 }
 
 .header__top {
