@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("https://res2.weblium.site/res/5ea68aee5ff1930022b473fb/5eba6c312e0afb0022cf3b52_optimized_1920.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 img {
     display: block;
     width: 100%;
@@ -16,7 +22,6 @@ img {
     max-width: 1175px;
     margin: auto;
 }
-
 
 :root {
     --header-background-color: rgb(28,29,30);

@@ -1,11 +1,50 @@
-.about {
-    background-image: url(https://res2.weblium.site/res/5ea68aee5ff1930022b473fb/5eba6c312e0afb0022cf3b52_optimized_1920.webp);
-}
-
 .about__logo {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     padding-top: 100px;
     padding-left: 30px;
     width: 100%;
     height: 100%;
+}
+
+.about__striker-drones {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    color: var(--clear-white-color);
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.about__striker-drones-articles p {
+    padding-bottom: 22px;
+}
+
+.about__striker-drone-articleone {
+    font-size: 19px;
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--clear-white-color);
+    padding-bottom: 22px;
+}
+
+.about__striker-drone-articletwo {
+    font-size: 19px;
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--clear-white-color);
+    padding-bottom: 20px;
+}
+
+.about__striker-drones-status {
+    font-weight: lighter;
+    grid-column-start: 6;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    color:var(--clear-white-color);
+}
+
+.about__striker-drones-status-number {
+    margin-bottom: 100px;
+    color: var(--button-one-aqua-color)
+}
+
+.about__striker-drones-status-words {
+    margin-bottom: 100px; 
 }
