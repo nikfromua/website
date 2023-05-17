@@ -30,9 +30,11 @@
     max-width: 100%;
     word-wrap: break-word;
     font-family: 'Fjalla One',sans-serif;
+    padding-bottom: 100px;
 }
 
 .header__buttons__one {
+    padding-left: 20px;
     width: 110px; 
     height: 60px; 
     background-color: var(--button-one-color); 
@@ -41,6 +43,7 @@
 }
 
 .header__buttons__two {
+    padding-left: 20px;
     width: 110px; 
     height: 60px; 
     background-color: var(--header-background-color);
