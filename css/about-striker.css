@@ -14,25 +14,20 @@
     padding-bottom: 30px;
 }
 
-.about__striker-drones-articles p {
-    padding-bottom: 22px;
+.about__striker-drones-articles {
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+    color: var(--clear-white-color);
 }
 
-.about__striker-drone-articleone {
-    font-size: 19px;
-    font-family: 'Fjalla One', sans-serif;
-    color: var(--clear-white-color);
-    padding-bottom: 22px;
+.about__striker-drones-articles span {
+    display: block;
+    margin-bottom: 10px;
 }
 
-.about__striker-drone-articletwo {
-    font-size: 19px;
-    font-family: 'Fjalla One', sans-serif;
-    color: var(--clear-white-color);
+.about__striker-drones-status  {
+    padding-left: 20px;
     padding-bottom: 20px;
-}
-
-.about__striker-drones-status {
     font-weight: lighter;
     grid-column-start: 6;
     font-family: 'Fjalla One', sans-serif;
