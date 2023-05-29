@@ -1,0 +1,13 @@
+.gallery {
+    padding-bottom: 90px;
+}
+
+.gallery__first {
+    margin-left: 20px; 
+}
+
+.gallery__first-icon {
+    height: 50px;
+    width: 50px;
+    color: #f52e62;;
+}
