@@ -38,7 +38,7 @@
     margin-top: 50px;
     color: var(--clear-white-color);
     font-family: 'Fjalla One', sans-serif;
-    font-size: 19px;
+    font-size: 18px;
 
 }
 
@@ -46,7 +46,7 @@
     margin-top: 50px;
     max-width: 100%;
     word-wrap: break-word;
-    font-family: 'Fjalla One',sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-bottom: 150px;
 }
 
@@ -75,6 +75,7 @@
 
 
 .header__buttons__two:hover {
+    color: black;
     background-color: var(--clear-white-color);
     transition: background-color 0.3s ease;
 }
