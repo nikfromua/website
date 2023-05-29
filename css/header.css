@@ -9,21 +9,32 @@
 }
 
 .header__drones {
-    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
     color: var(--clear-white-color);
     font-family: 'Fjalla One', sans-serif;
     font-size: 64px;
 }
 
+.header__drones-text {
+    margin: 20px;
+    line-height: 30px;
+}
+
 .header___line {
     display: flex;
     justify-content: flex-start;
-    margin-top: 40px;
-    margin-bottom: 40px; 
-  }
+    margin: 50px 0;
+}
+
+.header__iine-illustr {
+    padding-left: 20px;
+    height: 2px;
+    width: 92px;
+}
 
 .header__drones__california {
-    padding-left: 30px;
+    padding-left: 20px;
     margin-top: 50px;
     color: var(--clear-white-color);
     font-family: 'Fjalla One', sans-serif;
