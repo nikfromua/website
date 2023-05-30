@@ -1,13 +1,25 @@
 .gallery {
-    padding-bottom: 90px;
+    padding-top: 90px;
+    background-color: white;
 }
 
 .gallery__first {
-    margin-left: 20px; 
-}
-
-.gallery__first-icon {
     height: 50px;
     width: 50px;
-    color: #f52e62;;
+    color: #f52e62;
+    margin-left: 20px;
 }
+
+.gallery__first-text {
+    color: black;
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+}
+
+.gallery__first-text-desc {
+    color: black;
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
