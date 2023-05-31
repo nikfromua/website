@@ -1,5 +1,6 @@
 .gallery {
     padding-top: 90px;
+    padding-bottom: 90px;
     background-color: white;
 }
 
@@ -7,13 +8,14 @@
     height: 50px;
     width: 50px;
     color: #f52e62;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .gallery__first-text {
     color: black;
     font-family: "Lato",sans-serif;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .gallery__first-text-desc {
@@ -21,5 +23,6 @@
     font-family: "Lato",sans-serif;
     font-weight: bold;
     font-size: 16px;
+    margin-left: 50px;
 }
 
