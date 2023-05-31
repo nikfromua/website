@@ -56,3 +56,7 @@
 .footer__created p {
     margin-bottom: 20px;
 }
+
+.footer__nav-link:hover {
+    color: var(--button-one-aqua-color);
+}
