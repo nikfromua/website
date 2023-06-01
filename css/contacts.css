@@ -1,0 +1,28 @@
+.contacts {
+    background-image: url(https://res2.weblium.site/res/5ea68aee5ff1930022b473fb/5ebc001886db0c002130bea6_optimized_1200.webp);
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-size: cover;
+    animation: floatBackgroundImage 10s infinite linear;
+
+}
+
+@keyframes floatBackgroundImage {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.contacts__tittle {
+    font-size: 34px;
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--clear-white-color);
+    font-weight: lighter;
+}
