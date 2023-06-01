@@ -20,9 +20,33 @@
     }
 }
 
-.contacts__tittle {
-    font-size: 34px;
+.contacts__block {
+    font-size: 22px;
     font-family: 'Fjalla One', sans-serif;
     color: var(--clear-white-color);
     font-weight: lighter;
+}
+
+.contacts__block-line {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contacts__block-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+}
+
+.contacts__block-text-main {
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family:'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.contacts__block-text-second {
+    padding-bottom: 5px;
+    font-weight: bold;
 }

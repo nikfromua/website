@@ -60,3 +60,12 @@
 .footer__nav-link:hover {
     color: var(--button-one-aqua-color);
 }
+
+.contacts__block-text-second-mail {
+    text-decoration: none;
+    color: var(--clear-white-color);
+}
+
+.contacts__block-text-second-mail:hover {
+    color: var(--button-one-aqua-color);
+}
