@@ -4,11 +4,29 @@
     background-color: var(--clear-white-color);
 }
 
+.gallery___line {
+    margin: 50px 0;
+}
+
+.gallery___line-one {
+    margin-left: -80px;
+}
+
+.gallery___line-two {
+    margin-left: -80px;
+}
+
+.gallery___line-three {
+    margin-left: -80px;
+}
+
 .gallery__first {
     height: 50px;
     width: 50px;
     color: var(--gallery-first-color);
     margin-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .gallery__first-text {
@@ -16,13 +34,15 @@
     font-family: "Lato",sans-serif;
     font-weight: bold;
     font-size: 20px;
+    vertical-align: middle
 }
 
 .gallery__first-text-desc {
     color: var(--clear-black-color);
     font-family: "Lato",sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     margin-left: 50px;
+    padding-bottom: 50px;
 }
 
