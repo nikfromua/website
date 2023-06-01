@@ -1,5 +1,5 @@
 .footer {
-    background-color:rgb(28,29,30);
+    background-color:var(--header-background-color);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
 }
 
 .footer__nav-link {
-    color: white;
+    color: var(--clear-white-color);
     font-family:'Lato', sans-serif;
     text-decoration: none;
 }
@@ -35,19 +35,19 @@
 }
 
 .footer__hr-line {
-    border-color: rgb(85, 84, 83);
+    border-color: var(--footer-hr-line);
     height: 1px;
     width: 100%;
 }
 
 .footer__created {
-    color: white;
+    color: var(--clear-white-color);
     font-family:'Lato', sans-serif;
     text-align: center;
 }
 
 .footer__created-link {
-    color: white;
+    color: var(--clear-white-color);
     font-family:'Lato', sans-serif;
     text-decoration: none;
     cursor: pointer;

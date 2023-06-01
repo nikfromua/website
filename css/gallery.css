@@ -1,25 +1,25 @@
 .gallery {
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: white;
+    background-color: var(--clear-white-color);
 }
 
 .gallery__first {
     height: 50px;
     width: 50px;
-    color: #f52e62;
+    color: var(--gallery-first-color);
     margin-left: 50px;
 }
 
 .gallery__first-text {
-    color: black;
+    color: var(--clear-black-color);
     font-family: "Lato",sans-serif;
     font-weight: bold;
     font-size: 20px;
 }
 
 .gallery__first-text-desc {
-    color: black;
+    color: var(--clear-black-color);
     font-family: "Lato",sans-serif;
     font-weight: bold;
     font-size: 16px;
