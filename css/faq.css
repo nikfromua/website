@@ -1,0 +1,38 @@
+.faq {
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.faq__main {
+    color: var(--clear-white-color);
+    text-align: center;
+}
+
+.faq__main-text {
+    font-size: 34px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.faq__main-text-desc {
+    font-family:'Lato', sans-serif;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.faq__main-illus {
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+
+.faq__main-tittle {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Fjalla One', sans-serif;
+}
