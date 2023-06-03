@@ -55,8 +55,34 @@
     background:rgba(28, 29, 30, 0.82)
 }
 
-.contacts__contacts__window-input {
+.contacts__window-input {
+    margin: 20px 0 20px 60px;
+    padding: 20px 20px 20px 20px;
+    border: none;
     border-color:#f0f0f0;
     background-color:rgba(28, 29, 30, 0.41);
     color:#FFFFFF;
+}
+
+.contacts__window-input-message {
+    margin: 20px 0 20px 60px;
+    padding: 20px 20px 80px 20px;
+    border: none;
+    border-color:#f0f0f0;
+    background-color:rgba(28, 29, 30, 0.41);
+    color:#FFFFFF;
+}
+
+.contacts__window-input-button {
+    margin: 20px 0 20px 60px;
+    width: 205px; 
+    height: 50px; 
+    background-color: var(--button-one-color); 
+    border: none; 
+    color: var(--clear-white-color)
+}
+
+.contacts__window-input-button:hover {
+    background-color: var(--button-one-aqua-color);
+    transition: background-color 0.3s ease;
 }
