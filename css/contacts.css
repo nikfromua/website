@@ -1,6 +1,7 @@
 .contacts {
     background-image: url(https://res2.weblium.site/res/5ea68aee5ff1930022b473fb/5ebc001886db0c002130bea6_optimized_1200.webp);
     padding-top: 90px;
+    padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
     background-size: cover;
@@ -52,7 +53,14 @@
 }
 
 .contacts__window {
-    background:rgba(28, 29, 30, 0.82)
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: flex-start;
+  margin: 0 auto;
+  max-width: 330px;
+  background:rgba(28, 29, 30, 0.82)
 }
 
 .contacts__window-input {
