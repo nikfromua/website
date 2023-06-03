@@ -16,6 +16,7 @@
 
 .about__striker-drones-articles {
     padding-left: 20px;
+    padding-right: 20px;
     font-family: 'Lato', sans-serif;
     color: var(--clear-white-color);
 }

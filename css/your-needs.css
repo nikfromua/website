@@ -1,5 +1,6 @@
 .needs {
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 90px;
     padding-bottom: 90px;
     background-color: var(--needs-background-color);
