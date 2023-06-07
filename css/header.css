@@ -87,6 +87,7 @@
     .header {
         padding-left: 130px;
         background-image: url(https://res2.weblium.site/res/5ea68aee5ff1930022b473fb/5ebc143840e3dd0021582805_optimized_1920.webp);
+        background-position: -130px 0;
         background-size: cover;
         padding-bottom: 200px;
    }
