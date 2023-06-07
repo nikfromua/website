@@ -1,46 +1,100 @@
-.about__logo {
-    padding-bottom: 80px;
-    padding-top: 100px;
-    padding-left: 30px;
-    width: 100%;
-    height: 100%;
+@media (max-width: 991px) {
+    .about__logo {
+        padding-bottom: 80px;
+        padding-top: 100px;
+        padding-left: 30px;
+        width: 100%;
+        height: 100%;
+   }
+    .about__striker-drones {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 40px;
+        color: var(--clear-white-color);
+        padding-left: 30px;
+        padding-bottom: 30px;
+   }
+    .about__striker-drones-articles {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Lato', sans-serif;
+        color: var(--clear-white-color);
+   }
+    .about__striker-drones-articles span {
+        display: block;
+        margin-bottom: 10px;
+   }
+    .about__striker-drones-status {
+        padding-left: 20px;
+        padding-bottom: 100px;
+        font-weight: lighter;
+        grid-column-start: 6;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 22px;
+        color:var(--clear-white-color);
+   }
+
+   .about__striker-drone-articleone {
+    font-size: 18px;
+    font-weight: bolder;
+   }
+
+
+    .about__striker-drones-status-number {
+        margin-bottom: 100px;
+        color: var(--button-one-aqua-color) 
+   }
+    .about__striker-drones-status-words {
+        margin-bottom: 100px;
+   }
 }
 
-.about__striker-drones {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 40px;
-    color: var(--clear-white-color);
-    padding-left: 30px;
-    padding-bottom: 30px;
-}
+@media (min-width: 992px) {
+    .about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      
+      .about__logo {
+        padding-right: 50px;
+        width: 570px;
+        height: 542px;
+      }
+      
+      .about__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .about__striker-drones {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 40px;
+        color: var(--clear-white-color);
+      }
+      
+      .about__striker-drones-articles {
+        font-family: 'Lato', sans-serif;
+        color: var(--clear-white-color);
+      }
+      
+      .about__striker-drones-status {
+        font-weight: lighter;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 22px;
+        color: var(--clear-white-color);
+      }
+      
+      .about__striker-drone-articleone {
+        font-size: 18px;
+        font-weight: bolder;
+       }
 
-.about__striker-drones-articles {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: 'Lato', sans-serif;
-    color: var(--clear-white-color);
-}
-
-.about__striker-drones-articles span {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.about__striker-drones-status  {
-    padding-left: 20px;
-    padding-bottom: 100px;
-    font-weight: lighter;
-    grid-column-start: 6;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 22px;
-    color:var(--clear-white-color);
-}
-
-.about__striker-drones-status-number {
-    margin-bottom: 100px;
-    color: var(--button-one-aqua-color)
-}
-
-.about__striker-drones-status-words {
-    margin-bottom: 100px; 
-}
+      .about__striker-drones-status-number {
+        color: var(--button-one-aqua-color);
+      }
+    }      
