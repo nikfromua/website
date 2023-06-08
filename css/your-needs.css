@@ -1,41 +1,84 @@
-.needs {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-color: var(--needs-background-color);
+@media (max-width: 991px) {
+    .needs {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-color: var(--needs-background-color);
+   }
+    .needs__text {
+        font-family:'Fjalla One', sans-serif;
+        color: var(--clear-black-color);
+        font-size: 20;
+   }
+    .needs__text-info {
+        font-size: 35px;
+   }
+    .needs__text-line {
+        padding-top: 30px;
+        padding-bottom: 30px;
+   }
+    .needs__button {
+        font-family:'Fjalla One', sans-serif;
+   }
+    .needs__button-drone {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 180px;
+        height: 60px;
+        background-color: var(--button-one-color);
+        border: none;
+        color: var(--clear-white-color) 
+   }
+    .needs__button-drone:hover {
+        background-color: var(--button-one-aqua-color);
+        transition: background-color 0.3s ease;
+   }
 }
-
-.needs__text {
-    font-family:'Fjalla One', sans-serif;
-    color: var(--clear-black-color);
-    font-size: 20;
-}
-
-.needs__text-info {
-    font-size: 35px;
-}
-
-.needs__text-line {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.needs__button {
-    font-family:'Fjalla One', sans-serif;
-}
-
-.needs__button-drone {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 180px; 
-    height: 60px; 
-    background-color: var(--button-one-color); 
-    border: none; 
-    color: var(--clear-white-color)
-}
-
-.needs__button-drone:hover {
-    background-color: var(--button-one-aqua-color);
-    transition: background-color 0.3s ease;
+@media (min-width: 992px) {
+    .needs {
+        display: flex;
+        padding: 120px 0 120px 50px;
+        background-color: var(--needs-background-color);
+   }
+    .needs__text-info {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family:'Fjalla One', sans-serif;
+        font-size: 40px;
+   }
+    .needs__text {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 18px;
+        font-family:'Lato', sans-serif;
+   }
+    .needs__text-line {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+   }
+    .needs__button {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family:'Fjalla One', sans-serif;
+   }
+    .needs__button-drone {
+        width: 180px;
+        height: 60px;
+        background-color: var(--button-one-color);
+        border: none;
+        color: var(--clear-white-color) 
+   }
+    .needs__button-drone:hover {
+        background-color: var(--button-one-aqua-color);
+        transition: background-color 0.3s ease;
+   }
+    .needs__img {
+        width: 894px;
+        height:746px;
+   }
 }
